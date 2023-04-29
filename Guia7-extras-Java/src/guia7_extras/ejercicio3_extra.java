@@ -3,23 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package guia7;
+package guia7_extras;
 
-import Entidades.Puntos;
+import Entidades.Juego;
 
 /**
  *
  * @author Matias
  */
-public class ejercicio2_extra {
+public class ejercicio3_extra {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Puntos punto = new Puntos();
-        punto.crearPuntos();
-        System.out.println("La distancia entre los dos puntos es: " + punto.calcularDistancia());
-    }
-    
+     Juego juego = new Juego();
+     juego.iniciar_juego();
+     
+}
 }
