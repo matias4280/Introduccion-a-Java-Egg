@@ -59,6 +59,25 @@ public class PaisServicio {
      }
  }
  
+ //no se pide en el enunciado, pero es otra forma. 
+ public void borrarPais2(){
+     Scanner leer = new Scanner(System.in);
+     boolean bandera = false;
+     System.out.println("Escriba un pais que desee borrar de la lista");
+     String nombrePais = leer.nextLine();
+     if(this.paises.contains(nombrePais)){
+         this.paises.remove(nombrePais);
+         bandera = true;
+     }
+     if(bandera){
+         System.out.println("Se removio el pais de la lista");
+         this.mostrarPaisesOrdenado();
+     }else{
+         System.out.println("No se ha encontrado el pais ingresado");
+     }
+ }
+ 
+ //en el enunciado se pide usar un iterator
  public void borrarPais(){
      boolean bandera = false;
      Scanner leer = new Scanner(System.in);

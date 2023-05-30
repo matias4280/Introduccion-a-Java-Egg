@@ -22,6 +22,7 @@ public class Guia10Ejercicio5 {
         ps.mostrarPaises();
         ps.mostrarPaisesOrdenado();
         ps.borrarPais();
+        ps.borrarPais2();
     }
     
 }
