@@ -6,6 +6,7 @@
 package Servicios;
 
 import Entidades.Ahorcado;
+import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -104,13 +105,14 @@ public class AhorcadoServicio {
                }else{
                    System.out.println("Número de letras (encontradas, faltantes): " + "(" + a1.getCant_letras_encontradas() + "," + faltantes + ")");
 
-                   System.out.println("Cantidad de intentos restantes" + this.intentos(a1));
+                   System.out.println("Cantidad de intentos restantes " + this.intentos(a1));
                }
                
            }while(a1.getCant_jugadas_maximas()>0 && a1.getCant_letras_encontradas()!=a1.getPalabra().length);
            
            if(a1.getCant_jugadas_maximas()==0){
                System.out.println("Perdiste, suerte para la proxima");
+               System.out.println("La palabra era: "+Arrays.toString(a1.getPalabra()));
            }
 }
 }

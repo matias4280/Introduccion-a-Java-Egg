@@ -13,7 +13,7 @@ import java.util.Scanner;
  *
  * @author Matias
  */
-public class Guia9 {
+public class ejercicio_extra_ahorcado {
 
     /**
      * @param args the command line arguments
