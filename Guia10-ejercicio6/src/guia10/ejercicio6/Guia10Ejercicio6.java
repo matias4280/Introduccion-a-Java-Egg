@@ -66,6 +66,7 @@ public class Guia10Ejercicio6 {
                 case 6:
                     System.out.println("SALDRA DE LA TIENDA");
                     System.out.println("");
+                    break;
                 default:
                     System.out.println("Opcion invalida");
             }

@@ -23,7 +23,6 @@ public class ProductoServicio {
 
     public void agregarProducto() {
         Scanner leer = new Scanner(System.in);
-        String opcion;
         System.out.println("Ingrese un producto");
         String nombreProd = leer.nextLine();
         System.out.println("Ingrese su precio");
