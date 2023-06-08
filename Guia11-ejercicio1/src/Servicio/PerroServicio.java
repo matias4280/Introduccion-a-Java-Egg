@@ -6,7 +6,7 @@
 package Servicio;
 
 import Entidad.Perro;
-import Enumeraciones.Tamaño;
+import Enumeraciones.Tamanio;
 import java.util.Scanner;
 
 /**
@@ -26,20 +26,20 @@ public class PerroServicio {
         System.out.println("Ingrese el tamaño del perro");
         leer.nextLine();
         String tam = leer.nextLine();
-        Tamaño tamaño = null;
+        Tamanio tamanio = null;
         boolean opc = true;
         while (opc) {
             switch (tam) {
                 case "chico":
-                    tamaño = Tamaño.CHICO;
+                    tamanio = Tamanio.CHICO;
                     opc = false;
                     break;
                 case "mediano":
-                    tamaño = Tamaño.MEDIANO;
+                    tamanio = Tamanio.MEDIANO;
                     opc = false;
                     break;
                 case "grande":
-                    tamaño = Tamaño.GRANDE;
+                    tamanio = Tamanio.GRANDE;
                     opc = false;
                     break;
                 default:
@@ -48,7 +48,7 @@ public class PerroServicio {
             }
         }
         Perro nuevoPerro;
-        nuevoPerro = new Perro(nombre, raza, edad, tamaño);
+        nuevoPerro = new Perro(nombre, raza, edad, tamanio);
         return nuevoPerro;
     }
 }

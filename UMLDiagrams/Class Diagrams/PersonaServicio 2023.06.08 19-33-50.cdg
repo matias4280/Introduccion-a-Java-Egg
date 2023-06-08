@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="PersonaServicio">
+  <ClassDiagramComponents>
+    <Class name="PersonaServicio" package="Servicio" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="crearPersona" returnType="Persona" visibility="public"/>
+        <Method name="adoptarPerro" returnType="void" visibility="public">
+          <Argument type="Persona" name="persona1"/>
+          <Argument type="Perro" name="perro1"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

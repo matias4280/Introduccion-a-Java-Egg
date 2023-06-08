@@ -9,6 +9,6 @@ package Enumeraciones;
  *
  * @author Matias
  */
-public enum Tamaño {
+public enum Tamanio {
     CHICO,MEDIANO,GRANDE
 }

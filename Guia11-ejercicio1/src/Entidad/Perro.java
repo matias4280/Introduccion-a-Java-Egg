@@ -5,7 +5,7 @@
  */
 package Entidad;
 
-import Enumeraciones.Tamaño;
+import Enumeraciones.Tamanio;
 
 /**
  *
@@ -16,13 +16,13 @@ public class Perro {
     private String nombre;
     private String raza;
     private int edad;
-    private Tamaño tamaño;
+    private Tamanio tamanio;
 
-    public Perro(String nombre, String raza, int edad, Tamaño tamaño) {
+    public Perro(String nombre, String raza, int edad, Tamanio tamanio) {
         this.nombre = nombre;
         this.raza = raza;
         this.edad = edad;
-        this.tamaño = tamaño;
+        this.tamanio = this.tamanio;
     }
 
     public Perro() {
@@ -52,17 +52,17 @@ public class Perro {
         this.edad = edad;
     }
 
-    public Tamaño getTamaño() {
-        return tamaño;
+    public Tamanio getTamanio() {
+        return tamanio;
     }
 
-    public void setTamaño(Tamaño tamaño) {
-        this.tamaño = tamaño;
+    public void setTamanio(Tamanio tamanio) {
+        this.tamanio = tamanio;
     }
 
     @Override
     public String toString() {
-        return "Perro{" + "nombre=" + nombre + ", raza=" + raza + ", edad=" + edad + ", tama\u00f1o=" + tamaño + '}';
+        return "Perro{" + "nombre=" + nombre + ", raza=" + raza + ", edad=" + edad + ", tamanio= " + tamanio + '}';
     }
 
 }
